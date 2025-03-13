@@ -1,0 +1,47 @@
+/* ---- General Styles ---- */
+body {
+    background-image: url("../images/dark-texture.jpg");
+    background-size: cover;
+    background-color: #0d0d0d; /* Deep dark background */
+    color: #e0e0e0;
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ---- Header Styles ---- */
+h1, h2 {
+    background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent dark background */
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* ---- Additional Styles ---- */
+
+/* Adds a glowing effect to headings */
+h1:hover, h2:hover {
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+/* Styled Links */
+a {
+    color: #c92f2f; /* Dark red for a gothic feel */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ff5a5a; /* Brighter red on hover */
+}
+
+/* ---- Footer Styles ---- */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 0.9em;
+}
